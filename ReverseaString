@@ -1,0 +1,9 @@
+# Reverse a String
+name ='lakshmi'
+reverseString =""
+i = len(name)-1
+while i>=0:
+    reverseString += name[i]
+    i-=1
+print(reverseString)
+
